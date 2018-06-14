@@ -12,4 +12,7 @@ class BankAccount
   def deposit(amount)
     @balance += amount unless amount < 0 
   end
+  
+  def display_balance(balance) 
+    
 end
